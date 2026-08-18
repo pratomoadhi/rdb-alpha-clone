@@ -150,6 +150,49 @@ INSERT INTO public.games VALUES (16, 16, 619, 620);
 INSERT INTO public.games VALUES (17, 15, 959, 962);
 INSERT INTO public.games VALUES (18, 15, 945, 946);
 INSERT INTO public.games VALUES (19, 15, 887, 888);
+INSERT INTO public.games VALUES (21, 17, 666, 667);
+INSERT INTO public.games VALUES (22, 17, 564, 565);
+INSERT INTO public.games VALUES (23, 18, 381, 382);
+INSERT INTO public.games VALUES (24, 18, 592, 593);
+INSERT INTO public.games VALUES (25, 17, 925, 928);
+INSERT INTO public.games VALUES (26, 17, 932, 933);
+INSERT INTO public.games VALUES (27, 17, 209, 210);
+INSERT INTO public.games VALUES (28, 20, 471, 472);
+INSERT INTO public.games VALUES (29, 20, 885, 886);
+INSERT INTO public.games VALUES (30, 21, 567, 568);
+INSERT INTO public.games VALUES (31, 21, 396, 397);
+INSERT INTO public.games VALUES (32, 20, 661, 664);
+INSERT INTO public.games VALUES (33, 20, 116, 117);
+INSERT INTO public.games VALUES (34, 20, 466, 467);
+INSERT INTO public.games VALUES (35, 22, 705, 706);
+INSERT INTO public.games VALUES (36, 22, 949, 950);
+INSERT INTO public.games VALUES (37, 23, 74, 75);
+INSERT INTO public.games VALUES (38, 23, 158, 159);
+INSERT INTO public.games VALUES (39, 22, 482, 485);
+INSERT INTO public.games VALUES (40, 22, 474, 475);
+INSERT INTO public.games VALUES (41, 22, 217, 218);
+INSERT INTO public.games VALUES (42, 24, 186, 187);
+INSERT INTO public.games VALUES (43, 24, 11, 12);
+INSERT INTO public.games VALUES (44, 25, 693, 694);
+INSERT INTO public.games VALUES (45, 25, 379, 380);
+INSERT INTO public.games VALUES (46, 24, 677, 680);
+INSERT INTO public.games VALUES (47, 24, 999, 1000);
+INSERT INTO public.games VALUES (48, 24, 101, 102);
+INSERT INTO public.games VALUES (49, 12, 178, 11);
+INSERT INTO public.games VALUES (50, 26, 786, 787);
+INSERT INTO public.games VALUES (51, 26, 917, 918);
+INSERT INTO public.games VALUES (52, 27, 648, 649);
+INSERT INTO public.games VALUES (53, 27, 670, 671);
+INSERT INTO public.games VALUES (54, 26, 775, 778);
+INSERT INTO public.games VALUES (55, 26, 83, 84);
+INSERT INTO public.games VALUES (56, 26, 659, 660);
+INSERT INTO public.games VALUES (57, 29, 332, 333);
+INSERT INTO public.games VALUES (58, 29, 44, 45);
+INSERT INTO public.games VALUES (59, 30, 824, 825);
+INSERT INTO public.games VALUES (60, 30, 583, 584);
+INSERT INTO public.games VALUES (61, 29, 591, 594);
+INSERT INTO public.games VALUES (62, 29, 580, 581);
+INSERT INTO public.games VALUES (63, 29, 998, 999);
 
 
 --
@@ -162,20 +205,34 @@ INSERT INTO public.users VALUES (13, 'user_1787042236072');
 INSERT INTO public.users VALUES (14, 'user_1787042236071');
 INSERT INTO public.users VALUES (15, 'user_1787042434619');
 INSERT INTO public.users VALUES (16, 'user_1787042434618');
+INSERT INTO public.users VALUES (17, 'user_1787042833148');
+INSERT INTO public.users VALUES (18, 'user_1787042833147');
+INSERT INTO public.users VALUES (19, 'juan');
+INSERT INTO public.users VALUES (20, 'user_1787042890253');
+INSERT INTO public.users VALUES (21, 'user_1787042890252');
+INSERT INTO public.users VALUES (22, 'user_1787042910198');
+INSERT INTO public.users VALUES (23, 'user_1787042910197');
+INSERT INTO public.users VALUES (24, 'user_1787042937147');
+INSERT INTO public.users VALUES (25, 'user_1787042937146');
+INSERT INTO public.users VALUES (26, 'user_1787042986665');
+INSERT INTO public.users VALUES (27, 'user_1787042986664');
+INSERT INTO public.users VALUES (28, 'x');
+INSERT INTO public.users VALUES (29, 'user_1787043000464');
+INSERT INTO public.users VALUES (30, 'user_1787043000463');
 
 
 --
 -- Name: games_game_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.games_game_id_seq', 19, true);
+SELECT pg_catalog.setval('public.games_game_id_seq', 63, true);
 
 
 --
 -- Name: users_user_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.users_user_id_seq', 16, true);
+SELECT pg_catalog.setval('public.users_user_id_seq', 30, true);
 
 
 --
